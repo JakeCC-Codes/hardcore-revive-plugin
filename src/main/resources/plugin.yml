@@ -1,0 +1,6 @@
+name: Hardcore Revive Plugin
+version: '1.0-SNAPSHOT'
+main: net.jakeccz.hrp.hardcoreRevivePlugin.HardcoreRevivePlugin
+api-version: '1.21'
+authors: [ JakeCCz ]
+description: Enhances the Hardcore Experience for Multiplayer!
