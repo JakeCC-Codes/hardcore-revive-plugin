@@ -1,6 +1,6 @@
-name: Hardcore Revive Plugin
-version: '1.0-SNAPSHOT'
-main: net.jakeccz.hrp.hardcoreRevivePlugin.HardcoreRevivePlugin
+name: HardcoreRevivePlugin
+version: '1.0'
+main: net.jakeccz.hrp.HardcoreRevivePlugin
 api-version: '1.21'
 authors: [ JakeCCz ]
-description: Enhances the Hardcore Experience for Multiplayer!
+description: Enhances the Hardcore Mode Multiplayer Experience by dropping a dead player's Skull Head that may be Used to Revive The Player!
