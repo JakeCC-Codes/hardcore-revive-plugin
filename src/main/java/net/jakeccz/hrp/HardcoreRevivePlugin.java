@@ -16,15 +16,11 @@ public final class HardcoreRevivePlugin extends JavaPlugin {
     public static final String PLUGIN_ID = "hardcorerplug";
     public static final Logger LOGGER = LoggerFactory.getLogger(PLUGIN_ID);
 
-    public static Set<Material> SOUL_SAND_BLOCKS = Tag.WITHER_SUMMON_BASE_BLOCKS.getValues();
-    public static Set<Material> FLOWER_BLOCKS = Tag.FLOWERS.getValues();
-    public static Set<Material> ORE_BLOCKS = Tag.BEACON_BASE_BLOCKS.getValues();
-    public static Set<Material> FENCE_BLOCKS = Tag.FENCES.getValues();
-    public static Set<Material> STAIR_BLOCKS = Tag.STAIRS.getValues();
-
-    @Override
-    public void onLoad() {
-    }
+    public static final Set<Material> SOUL_SAND_BLOCKS = Tag.WITHER_SUMMON_BASE_BLOCKS.getValues();
+    public static final Set<Material> FLOWER_BLOCKS = Tag.FLOWERS.getValues();
+    public static final Set<Material> ORE_BLOCKS = Tag.BEACON_BASE_BLOCKS.getValues();
+    public static final Set<Material> FENCE_BLOCKS = Tag.FENCES.getValues();
+    public static final Set<Material> STAIR_BLOCKS = Tag.STAIRS.getValues();
 
     @Override
     public void onEnable() {

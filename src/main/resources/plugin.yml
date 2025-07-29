@@ -1,5 +1,5 @@
 name: HardcoreRevivePlugin
-version: '1.0'
+version: '1.0-BETA'
 main: net.jakeccz.hrp.HardcoreRevivePlugin
 api-version: '1.21'
 authors: [ JakeCCz ]
